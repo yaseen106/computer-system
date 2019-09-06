@@ -158,16 +158,13 @@ li.nav-item a{
 .shuffle-head{
     margin-bottom: 80px
 }
-
-
 .shuffle-imgs .col-md{
  margin-top: 20px
 }
-
 .shuffle-imgs:after{
-    content:'';
+       content:'';
         display: block;
-        width: 80%;
+        width: 80% ;
         height:1px;
         background-color: #a9aaac;
         margin: 25px 0;
@@ -178,12 +175,9 @@ li.nav-item a{
 
 /*end shuffle-imgs*/
 /*startcard*/
-.card-columns{
-    width: 90%;
-}
+
 .button2{
     background: #ff6a00;
-    padding: 10px 20;
     border: 1px solid #ff6a00;
     border-radius:30px ;     
     margin-top: 20px;
@@ -193,7 +187,6 @@ li.nav-item a{
     line-height: 40px;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 42%;
     margin-top: 3%;
 
 }
@@ -201,18 +194,19 @@ li.nav-item a{
 .button2:hover{
     box-shadow: #a9aaac  5px 5px 5px 
 }
-.card-columns~:after{
-    content:'';
-    display: block;
-    width:90%;
-    height:1px;
-    background-color: #a9aaac;
-    margin: 25px 0;
-    margin-left:-5% ;
-    margin-top: 60px;
-    margin-bottom: 60px
-0
+.card-two::after{
+         content:'';
+        display: block;
+        width: 80% ;
+        height:1px;
+        background-color: #a9aaac;
+        margin: 25px 0;
+        margin-left:10% ;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
 }
+
 /*end card*/
 /* start testi-monilesection*/
 
@@ -345,15 +339,7 @@ color: #ff6a00;
         
         }   
     }
-    @media(max-width:768px){
-        .button2{
-            margin-top: 30px;
-            font-size:18px;
-            margin-left: 29%;
 
-    
-    }   
-    }
     @media(max-width:768px){
         .contact{
             margin-top: 30px;

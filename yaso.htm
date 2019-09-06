@@ -88,7 +88,7 @@
   <section class ="features text-left">
   <div class="container">
   <div class="row ">
-  <div class="col-lg-4 col-md-4 animated rotateInUpLeft" data-animated-delay="1.5s" >
+  <div class="col-lg-4 col-md-4 animated rotateInUpLeft"  id="option1"data-animated-delay="1.5s" >
   <div class="feat1">
   <i class="fas fa-heart fa-2x" style="color: #f88809;"></i>
   <h4>Retina ready</h4>
@@ -96,7 +96,7 @@
     you need to build software from idea Access a vast ecosystem  the integrations.</p>
     </div> 
     </div>
-    <div class="col-lg-4 col-md-4 animated rotateInUpLeft" data-animated-delay="3s" >
+    <div class="col-lg-4 col-md-4 animated rotateInUpLeft" id="option2" data-animated-delay="3s" >
     <div class="feat">
     <i class="fas fa-star fa-2x" style="color: #f88809;"></i>
     <h4>Awesome display</h4> 
@@ -104,15 +104,20 @@
     systems you need to build software from idea  production Access a vast ecosystem  the .</p>
 </div>
   </div>
-  <div class="col-lg-4 col-md-4 animated rotateInUpLeft" data-animated-delay="4s" >
+  <div class="col-lg-4 col-md-4 animated rotateInUpLeft"id="option3" data-animated-delay="4s" >
   <div class="feat1">
   <i class="fas fa-handshake fa-2x" style="color: #f88809;"></i>
   <h4>Well documented</h4>
   <p>Access a vast ecosystem  the integrations and 
   systems you need to build software from idea Access a vast ecosystem  the integrations.</p>
   </div>
+<!--
   </div>
+         <input type="radio" name="options" id="option1" autocomplete="off" > 
+          <input type="radio" name="options" id="option2" autocomplete="off" style="background-color: #f88809;"checked> 
+         <input type="radio" name="options" id="option3" autocomplete="off"> 
   </div>
+  -->
   </section>
 <!--start carousel-search-->
     <section >
@@ -125,13 +130,9 @@
     <h3><i class="fas fa-search fa-1x" style="color: #888;"></i>&nbsp;search...</h3>
     </div>
     <!--START SLIDER-->
-
     <div class="slider ">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
     <div class="carousel-inner" style="width: 55%;height: 500px;margin-left: 22%">
-
-
     <div class="carousel-item active">
     <div class="our-work">
 
@@ -263,6 +264,7 @@
     <!--end carousel-search-->
 <!--start card-->
 <section>
+  <div class="card-two">
 <div class="card-columns" style="width: 70%;margin-left: 15%;">
     <div class="card">
     <img src="images/aaa.jpg" class="card-img-top" alt="...">
@@ -311,7 +313,9 @@
       </div>
       </div>
       </div>
-      <button class="button2">Keep Reading</button>
+      <div class="text-center">
+    
+      <button class="button2 ">Keep Reading</button></div>
       </section>
       <!--end card-->
       <!--carousel-TEST-MONILS-->
@@ -473,10 +477,13 @@ Get Spesial Discount On Your First Journey
   <!--end scrollup --> 
   <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/wow.js"></script>
 <script src="js/jquery-3.3.1.slim.min.js" ></script>
 <script src="js/popper.min.js" ></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 <script src="js/JavaScript.js"></script>
 
 </body>
